@@ -24,7 +24,7 @@ for (let i = 0; i < 10; i++) {
   die1 = Roll()
   die2 = Roll();
 
-  let message = `${die1} + ${die2} === ${die1.value} + ${die2.value}`
+  let message = `${die1.value} + ${die2.value} === ${die1.value + die2.value}`
   if (die1.value === die2.value) {
     message += " DOUBLES!"
   }
